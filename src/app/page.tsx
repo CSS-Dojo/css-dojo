@@ -3,7 +3,7 @@ import CodeWindow from "@/components/CodeWindow";
 import OriginalImage from "@/components/OriginalImage";
 import { useState, useRef, use } from "react";
 import html2canvas from "html2canvas";
-import Jimp from "jimp/browser/lib/jimp.js";
+import Jimp from "jimp";
 import data from "../utils/images.json";
 
 export default function Home() {
