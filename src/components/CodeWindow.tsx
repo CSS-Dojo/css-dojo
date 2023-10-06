@@ -6,6 +6,7 @@ const CodeWindow = (props: any) => {
       <textarea
         className="w-1/2 h-96 bg-slate-900 text-white font-mono align-top p-2 resize-none mr-2"
         placeholder="Write code here"
+        name="code"
         onChange={(e) => {
           props.setCode(e.target.value);
           console.log(e.target.value);
