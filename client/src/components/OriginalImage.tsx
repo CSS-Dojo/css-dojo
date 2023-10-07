@@ -24,7 +24,7 @@ const OriginalImage = (props: any) => {
       <img
         src={props.data.images[props.image].url}
         alt="target"
-        className="aspect-[4/3] w-96 m-auto"
+        className="aspect-[4/3] w-[400px] h-[300px] m-auto"
       />
     </div>
   );

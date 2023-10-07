@@ -24,7 +24,7 @@
     ],
     "paths": {
       "@/*": [
-        "./src/*"
+        "/client/src/*"
       ]
     },
     "forceConsistentCasingInFileNames": true
@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "src/utils/handler.js"  ],
+, "client/src/utils/handler.js"  ],
   "exclude": [
     "node_modules"
   ]

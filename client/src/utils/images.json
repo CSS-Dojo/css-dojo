@@ -1,0 +1,6 @@
+{
+  "images": [
+    { "name": "sample1", "url": "images/sample1.png"},
+    { "name": "test", "url": "images/test.png" }
+  ]
+}
